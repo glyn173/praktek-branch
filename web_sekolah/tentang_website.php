@@ -11,7 +11,7 @@ $aktif = 'tentang_website';
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Detail Artikel - SMK Negeri 1 Wanareja</title>
+	<title>Profil Singkat Artikel - SMK Negeri 1 Wanareja</title>
 	<link rel="stylesheet" href="resources/fonts/stylesheet.css">
 	<link rel="stylesheet" href="resources/css/bootstrap.min.css">
 	<link rel="stylesheet" href="resources/css/style.css">
@@ -36,11 +36,39 @@ $aktif = 'tentang_website';
 		<div class="row p-3">
 			<div class="col-md-8">
 				<div class="title mb-3">
-					Tentang Website SMK Negeri 1 Wanareja
+					Profil Singkat SMK Negeri 1 Wanareja
 				</div>
 				<div class="artikel">
 					<?= $tentang_website['tentang_website'] ?>
 				</div>
+
+				<hr>
+
+<div class="card mt-4">
+    <div class="card-body">
+        <h4>Profil Sekolah</h4>
+        <p>
+            SMK Negeri 1 Wanareja merupakan sekolah menengah kejuruan yang berkomitmen
+            mencetak lulusan yang berkarakter, disiplin, dan siap menghadapi dunia kerja.
+            Sekolah menyediakan berbagai program keahlian serta didukung oleh tenaga pendidik
+            yang profesional dan lingkungan belajar yang nyaman.
+        </p>
+
+        <h5>Visi</h5>
+        <p>
+            Menjadi sekolah kejuruan yang unggul, berkarakter, dan berprestasi.
+        </p>
+
+        <h5>Misi</h5>
+        <ul>
+            <li>Meningkatkan kualitas pembelajaran yang inovatif.</li>
+            <li>Membentuk peserta didik yang disiplin dan bertanggung jawab.</li>
+            <li>Mengembangkan keterampilan sesuai kebutuhan dunia kerja.</li>
+            <li>Menumbuhkan semangat berprestasi dan kerja sama.</li>
+        </ul>
+    </div>
+</div>
+
 			</div>
 			<?php require_once 'sidebar.php'; ?>
 		</div>
